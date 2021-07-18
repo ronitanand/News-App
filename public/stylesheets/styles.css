@@ -1,0 +1,40 @@
+#navbar{
+    padding: 0.8rem 14px;
+}
+
+#search-box{
+    min-width: 500px;
+    max-width: 450px;
+    width: 40%;
+} 
+
+.urlimage{
+    width: 100%;
+}
+
+.row{
+    padding: 0 10px;
+}
+
+
+#news-box{
+    background-color: rgba(245, 238, 238, 0.89)
+}
+
+.col-6.col-sm-4.col-lg-3{
+    height: 750px;
+    background-color: white;
+    margin-bottom: 20px;
+    border: 1px solid red;
+    
+}
+
+
+@media screen and  (max-width:600px) {
+    #search-box{
+        min-width: 300px;
+    }
+    #submit{
+        margin-left: 10px;
+    }
+}
